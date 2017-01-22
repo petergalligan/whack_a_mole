@@ -1,0 +1,73 @@
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("../img/dirt.png");
+}
+
+.header img {
+  height: 200px;
+  width: 100%;
+  zoom: 50%;
+  position: relative;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  color: black;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+}
+#shape {
+  display: none;
+  position: relative;
+}
+
+#shape img {
+  width: 150px;
+  height: 150px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
